@@ -28,7 +28,7 @@ const QUESTIONSWITCH = () => {
                 MAIN_SUBMIT.classList.remove("off");
                 SPAN_X.innerText = axisX;
                 SPAN_Y.innerText = axisY;
-                IMG.style.top = ((axisY * 1.44) + 144) + "px";
+                IMG.style.top = ((axisY * -1.44) + 144) + "px";
                 IMG.style.left = ((axisX * 1.44) + 144) + "px";
             }
         })
